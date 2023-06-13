@@ -1,9 +1,10 @@
 package main
 
 import(
-	"github.com/yunkaiyueming/modtest/util2"
+	"fmt"
+	"github.com/yunkaiyueming/modtest/until2"
 )
 
 func main(){
-	fmt.Println(util2.AutoCompre("min", 12, 54))
+	fmt.Println(until2.AutoCompre("min", 12, 54))
 }
